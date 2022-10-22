@@ -1,0 +1,10 @@
+# Exclude node_modules in any directory
+node_modules/
+
+/popup/public/build/
+/dist/
+
+.DS_Store
+
+# Exclude the .env file containing sensitive data
+.env

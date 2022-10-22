@@ -1,0 +1,18 @@
+{
+  "name": "service-worker",
+  "version": "1.0.0",
+  "description": "The service worker for the web extension.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "Steven McLintock",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.197",
+    "dotenv-webpack": "^8.0.1",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack-cli": "^4.10.0"
+  }
+}

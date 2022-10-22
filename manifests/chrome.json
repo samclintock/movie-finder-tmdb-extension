@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "MovieMoose",
+    "description": "Open source Chrome extension to search for movie and TV show information",
+    "version": "0.0.1",
+    "author": "Steven McLintock",
+    "action": {
+        "default_title": "MovieMoose",
+        "default_popup": "popup/index.html"
+    },
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
