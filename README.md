@@ -22,7 +22,9 @@ TMDB_API_AUTH_TOKEN="YOUR_BEARER_TOKEN"
 
 ## Build the Extension
 
-Within a terminal, run `cd ./movie-moose` so you are within the extension directory and run `make` to build the extension.
+1. Within a terminal, run `cd ./movie-moose` so you are within the extension directory
+2. Run `npm install` within `popup` and `service-worker` to install the dependencies
+3. Run `make` to build the extension
 
 ## Install the Extension
 
