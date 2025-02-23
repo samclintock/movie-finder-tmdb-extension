@@ -23,8 +23,8 @@ TMDB_API_AUTH_TOKEN="YOUR_BEARER_TOKEN"
 ## Build the Extension
 
 1. Within a terminal, run `cd ./movie-finder-tmdb-extension` so you are within the extension directory
-2. Run `npm install` within `popup` and `service-worker` to install the dependencies
-3. Run `make` to build the extension
+2. Run `make install` to install the dependencies
+3. Run `make build` to build the extension
 
 ## Install the Unpacked Extension
 

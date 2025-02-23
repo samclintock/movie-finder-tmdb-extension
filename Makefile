@@ -1,7 +1,11 @@
 dist = dist
 manifest = manifests/chrome.json
 
-extension:
+install:
+	npm install --prefix service-worker
+	npm install --prefix popup
+
+build:
 	rm -rf $(dist)
 	mkdir -p $(dist)
 	cp $(manifest) $(dist)/manifest.json
